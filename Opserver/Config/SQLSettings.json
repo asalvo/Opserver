@@ -1,0 +1,8 @@
+﻿{
+    "defaultConnectionString": "Data Source=$ServerName$;Initial Catalog=master;Integrated Security=SSPI;",
+    
+	"instances": [
+        
+        { "name": "localhost" }
+    ]
+}

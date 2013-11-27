@@ -9,7 +9,7 @@
     "categories": [
         {
             "name": "Database Servers",
-            "pattern": "-sql",
+            "pattern": "-sql|hmwksp02",
             "cpuWarningPercent": "20",
             "memoryWarningPercent": "98",
             "memoryCriticalPercent": "99.2",
@@ -103,14 +103,6 @@
         {
             "pattern": "EDGE\\d+ \\(INAP\\)",
             "primaryInterfacePattern": "GigabitEthernet0/0/0"
-        }
-    ],
-    "providers": [
-        {
-            "name": "Orion",
-            "type": "Orion",
-            "host": "orion.ds.stackexchange.com",
-            "connectionString": "Data Source=ny-utilsql01;Initial Catalog=SolarWindsOrion;Integrated Security=SSPI;Timeout=10"
         }
     ]
 }

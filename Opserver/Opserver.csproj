@@ -142,7 +142,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Config\Readme.txt" />
     <Content Include="Content\Common.css">
       <DependentUpon>Common.less</DependentUpon>
     </Content>
@@ -194,16 +193,11 @@
       <DependentUpon>Styles.less</DependentUpon>
     </Content>
     <Content Include="App_Code\Helpers.cshtml" />
-    <Content Include="Config\DashboardSettings.json.example" />
-    <Content Include="Config\ElasticSettings.json.example" />
-    <Content Include="Config\ExceptionsSettings.json.example" />
-    <Content Include="Config\HAProxySettings.json.example" />
-    <Content Include="Config\PollingSettings.json.example" />
-    <Content Include="Config\RedisSettings.json.example" />
-    <Content Include="Config\SecuritySettings.config.example" />
-    <Content Include="Config\SQLSettings.json.example" />
-    <Content Include="Config\TeamCitySettings.json.example" />
     <Content Include="Content\img\logo\logo.eps" />
+    <Content Include="Config\DashboardSettings.json" />
+    <Content Include="Config\PollingSettings.json" />
+    <Content Include="Config\SecuritySettings.config" />
+    <Content Include="Config\SQLSettings.json" />
     <None Include="Content\_Styles.HeadsUp.less">
       <DependentUpon>Styles.less</DependentUpon>
     </None>
